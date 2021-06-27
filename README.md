@@ -1,3 +1,7 @@
-## OneBitFood V2 API
+# Delivery Food
 
-Esta API foi criada para o evento OneBitFood "criando um APP inspirado no IFood com Ruby On Rails + Next.js" do [OneBitCode](https://onebitcode.com)!
+This application Ruby on Rails API is a fork of the project **OneBitFoodV2** with modifications that you cant view in this page. The link of the original project is https://github.com/OneBitCodeBlog/onebitfoodV2-api
+
+## Modifications
+
+### Docker Compose
