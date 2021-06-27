@@ -5,3 +5,18 @@ This application Ruby on Rails API is a fork of the project **OneBitFoodV2** wit
 ## Modifications
 
 ### Docker Compose
+
+Now the application can run in Docker without need install anything. Execute this command:
+```
+docker-compose build
+```
+And created all migrations
+```
+docker-compose run web rake db:migrate && docker-compose down
+```
+Finally, see in your localhost in port 3000 after the this command:
+```
+docker-compose run up -d
+```
+
+Click here: http://localhost:3000/
