@@ -1,0 +1,25 @@
+version: '3.0'
+
+services:
+  web:
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
+    links:
+      - 'db:db'
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+
+  db:
+    image: nouchka/sqlite3:latest
+    stdin_open: true
+    tty: true
+    volumes:
+      - db_data:/app/db
+
+volumes:
+  db_data:
