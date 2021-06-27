@@ -20,3 +20,7 @@ docker-compose run up -d
 ```
 
 Click here: http://localhost:3000/
+
+
+### Tests with Rspec
+All modals, controllers an objects related is tested with the framework **Rspec**. Also, is used **FactoryBot**, **ShouldaMatchers** and **Faker**.
